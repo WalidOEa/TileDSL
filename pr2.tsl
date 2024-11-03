@@ -1,0 +1,11 @@
+LET (a : String = ROTATE_R 90 tile1.tl) IN {
+	LET (b : String = ROTATE_R 180 tile1.tl) IN {
+		LET (c : String = ROTATE_R 270 tile1.tl) IN {
+			LET (d : String = (STACK (CONCAT tile1.tl a) (CONCAT c b))) IN {
+				LET (e : String = ENLARGE 3 d) IN {
+					STACK (STACK (COPY 5 d) (ROTATE_R 90 (STACK (STACK (COPY 3 d) e) (COPY 3 d)))) (COPY 5 d)
+				}
+			}
+		}
+	}
+}
