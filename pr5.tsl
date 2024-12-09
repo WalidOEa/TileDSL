@@ -1,7 +1,0 @@
-LET (x : String = (GET_SUBTILE (0, 0) 6 tile1.tl)) IN {
-	LET (y : String = (GET_SUBTILE (2, 2) 6 tile1.tl)) IN {
-		LET (z : String = (GET_SUBTILE (4,4) 6 tile1.tl)) IN {
-			STACK (STACK (COPY 3 x) (COPY 3 y)) (COPY 3 z)
-		}
-	}
-}

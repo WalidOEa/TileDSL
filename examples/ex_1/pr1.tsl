@@ -1,0 +1,10 @@
+FOR (ROW, i : Int = 1, i < 64, ASC) DO {
+	FOR (COL, j : Int = 1, j < 64, ASC) DO {
+		IF ((((i % 2) /= 0) && ((j % 2) /= 0)) OR (((i % 2) == 0) && ((j % 2) == 0))) THEN {
+			tile1.tl
+		} ELSE {
+			tile2.tl
+		}
+
+	}
+}

@@ -1,0 +1,63 @@
+LET (t1 : String = tile1.tl) IN {
+	LET (t2 : String = tile2.tl) IN {
+		LET (flipT1 : String = REFLECT_X t1) IN {
+			LET (flipT2 : String = REFLECT_X t2) IN {
+				LET (bigT1 : String = ENLARGE 2 t1) IN {
+					LET (bigT2 : String = ENLARGE 2 t2) IN {
+						LET (left1 : String = STACK (STACK (CONCAT flipT1 (CONCAT flipT1 flipT2)) (CONCAT (STACK flipT1 t2) bigT2)) (CONCAT (STACK flipT2 t1) ENLARGE 2 flipT2)) IN {
+						LET (top1 : String = CONCAT (CONCAT (ENLARGE 2 flipT2) (ENLARGE 2 flipT2)) (STACK flipT2 t1)) IN {
+						LET (bottomMid1 : String = STACK (CONCAT (STACK flipT2 t1) (ENLARGE 2 flipT2)) (CONCAT t1 (CONCAT t1 t2))) IN {
+						LET (bottomRight1 : String = STACK (CONCAT t1 t1) bigT2) IN {
+						LET (square1 : String = CONCAT left1 (STACK top1 (CONCAT bottomMid1 bottomRight1))) IN {
+						
+						LET (right1 : String = STACK (STACK (CONCAT flipT2 (CONCAT flipT1 flipT1)) (CONCAT bigT2 (STACK flipT1 t2))) (CONCAT (REFLECT_X bigT2) (STACK flipT2 t1))) IN {
+						LET (top2 : String = CONCAT (STACK flipT2 t1) (CONCAT (REFLECT_X bigT2) (REFLECT_X bigT2))) IN {
+						LET (bottomMid2 : String = STACK (CONCAT (REFLECT_X bigT2) (STACK flipT2 t1)) (CONCAT t2 (CONCAT t1 t1))) IN {
+						LET (bottomLeft : String = STACK (CONCAT t1 t1) bigT2) IN {
+						LET (square2 : String = CONCAT (STACK top2 (CONCAT bottomLeft bottomMid2)) right1) IN {
+
+						LET (left2 : String = STACK (STACK (CONCAT (STACK flipT1 t2) bigT2) (CONCAT (STACK flipT2 t1) (REFLECT_X bigT2))) (CONCAT t1 (CONCAT t1 t2))) IN {
+						LET (topMid1 : String = STACK (CONCAT flipT1 (CONCAT flipT1 flipT2)) (CONCAT (STACK flipT1 t2) bigT2)) IN {
+						LET (topRight : String = STACK (ENLARGE 2 flipT2) (CONCAT flipT1 flipT1)) IN {
+						LET (bottom1 : String = CONCAT bigT2 (CONCAT bigT2 (STACK flipT1 t2))) IN {
+						LET (square3 : String = CONCAT left2 (STACK (CONCAT topMid1 topRight) bottom1)) IN {
+						
+						LET (topLeft : String = STACK (ENLARGE 2 flipT2) (CONCAT flipT1 flipT1)) IN {
+						LET (topMid2 : String = CONCAT (STACK (CONCAT flipT2 flipT1) bigT2) (STACK flipT1 (STACK flipT1 t2))) IN {
+						LET (bottom2 : String = CONCAT (STACK flipT1 t2) (CONCAT bigT2 bigT2)) IN {
+						LET (right2 : String = STACK (CONCAT bigT2 (STACK flipT1 t2)) CONCAT (STACK (ENLARGE 2 flipT2) (CONCAT t2 t1)) (STACK flipT2 (STACK t1 t1))) IN {
+						LET (square4 : String = CONCAT (STACK (CONCAT topLeft topMid2) bottom2) right2) IN {
+						
+						LET (row1 : String = CONCAT (COPY 2 (CONCAT square1 square2)) square1) IN {
+						LET (row2 : String = CONCAT (COPY 2 (CONCAT square3 square4)) square3) IN {
+						LET (row : String = STACK row1 row2) IN {
+						STACK (STACK row row) (STACK row row)
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						}
+						} 
+						}
+						}
+						}
+						}
+						}						
+						}
+		 				}
+						}
+						}
+						}
+					}
+				}
+			}
+		}
+	}
+}

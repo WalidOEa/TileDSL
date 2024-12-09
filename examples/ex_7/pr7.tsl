@@ -1,0 +1,223 @@
+LET (x : String = tile1.tl) IN {
+	LET (blank : String = EMPTY x) IN {
+		LET (a1 : String = ENLARGE 100 x) IN {
+		LET (b1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 2 blank}) (STACK (FOR (ROW, i : Int = 0, i < 1, ASC) DO {COPY 98 blank}) (ENLARGE 98 x))) IN {
+		LET (c1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 4 blank}) (STACK (FOR (ROW, i : Int = 0, i < 3, ASC) DO {COPY 96 blank}) (ENLARGE 96 x))) IN {
+		LET (d1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 6 blank}) (STACK (FOR (ROW, i : Int = 0, i < 5, ASC) DO {COPY 94 blank}) (ENLARGE 94 x))) IN {
+		LET (e1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 8 blank}) (STACK (FOR (ROW, i : Int = 0, i < 7, ASC) DO {COPY 92 blank}) (ENLARGE 92 x))) IN {
+		LET (f1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 10 blank}) (STACK (FOR (ROW, i : Int = 0, i < 9, ASC) DO {COPY 90 blank}) (ENLARGE 90 x))) IN {
+		LET (g1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 12 blank}) (STACK (FOR (ROW, i : Int = 0, i < 11, ASC) DO {COPY 88 blank}) (ENLARGE 88 x))) IN {
+		LET (h1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 14 blank}) (STACK (FOR (ROW, i : Int = 0, i < 13, ASC) DO {COPY 86 blank}) (ENLARGE 86 x))) IN {
+		LET (i1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 16 blank}) (STACK (FOR (ROW, i : Int = 0, i < 15, ASC) DO {COPY 84 blank}) (ENLARGE 84 x))) IN {
+		LET (j1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 18 blank}) (STACK (FOR (ROW, i : Int = 0, i < 17, ASC) DO {COPY 82 blank}) (ENLARGE 82 x))) IN {
+		LET (k1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 20 blank}) (STACK (FOR (ROW, i : Int = 0, i < 19, ASC) DO {COPY 80 blank}) (ENLARGE 80 x))) IN {
+		LET (l1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 22 blank}) (STACK (FOR (ROW, i : Int = 0, i < 21, ASC) DO {COPY 78 blank}) (ENLARGE 78 x))) IN {
+		LET (m1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 24 blank}) (STACK (FOR (ROW, i : Int = 0, i < 23, ASC) DO {COPY 76 blank}) (ENLARGE 76 x))) IN {
+		LET (n1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 26 blank}) (STACK (FOR (ROW, i : Int = 0, i < 25, ASC) DO {COPY 74 blank}) (ENLARGE 74 x))) IN {
+		LET (o1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 28 blank}) (STACK (FOR (ROW, i : Int = 0, i < 27, ASC) DO {COPY 72 blank}) (ENLARGE 72 x))) IN {
+		LET (p1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 30 blank}) (STACK (FOR (ROW, i : Int = 0, i < 29, ASC) DO {COPY 70 blank}) (ENLARGE 70 x))) IN {
+		LET (q1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 32 blank}) (STACK (FOR (ROW, i : Int = 0, i < 31, ASC) DO {COPY 68 blank}) (ENLARGE 68 x))) IN {
+		LET (r1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 34 blank}) (STACK (FOR (ROW, i : Int = 0, i < 33, ASC) DO {COPY 66 blank}) (ENLARGE 66 x))) IN {
+		LET (s1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 36 blank}) (STACK (FOR (ROW, i : Int = 0, i < 35, ASC) DO {COPY 64 blank}) (ENLARGE 64 x))) IN {
+		LET (t1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 38 blank}) (STACK (FOR (ROW, i : Int = 0, i < 37, ASC) DO {COPY 62 blank}) (ENLARGE 62 x))) IN {
+		LET (u1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 40 blank}) (STACK (FOR (ROW, i : Int = 0, i < 39, ASC) DO {COPY 60 blank}) (ENLARGE 60 x))) IN {
+		LET (v1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 42 blank}) (STACK (FOR (ROW, i : Int = 0, i < 41, ASC) DO {COPY 58 blank}) (ENLARGE 58 x))) IN {
+		LET (w1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 44 blank}) (STACK (FOR (ROW, i : Int = 0, i < 43, ASC) DO {COPY 56 blank}) (ENLARGE 56 x))) IN {
+		LET (y1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 46 blank}) (STACK (FOR (ROW, i : Int = 0, i < 45, ASC) DO {COPY 54 blank}) (ENLARGE 54 x))) IN {
+		LET (z1 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 48 blank}) (STACK (FOR (ROW, i : Int = 0, i < 47, ASC) DO {COPY 52 blank}) (ENLARGE 52 x))) IN {
+		
+		LET (a2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 50 blank}) (STACK (FOR (ROW, i : Int = 0, i < 49, ASC) DO {COPY 50 blank}) (ENLARGE 50 x))) IN {
+		LET (b2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 52 blank}) (STACK (FOR (ROW, i : Int = 0, i < 51, ASC) DO {COPY 48 blank}) (ENLARGE 48 x))) IN {
+		LET (c2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 54 blank}) (STACK (FOR (ROW, i : Int = 0, i < 53, ASC) DO {COPY 46 blank}) (ENLARGE 46 x))) IN {
+		LET (d2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 56 blank}) (STACK (FOR (ROW, i : Int = 0, i < 55, ASC) DO {COPY 44 blank}) (ENLARGE 44 x))) IN {
+		LET (e2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 58 blank}) (STACK (FOR (ROW, i : Int = 0, i < 57, ASC) DO {COPY 42 blank}) (ENLARGE 42 x))) IN {
+		LET (f2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 60 blank}) (STACK (FOR (ROW, i : Int = 0, i < 59, ASC) DO {COPY 40 blank}) (ENLARGE 40 x))) IN {
+		LET (g2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 62 blank}) (STACK (FOR (ROW, i : Int = 0, i < 61, ASC) DO {COPY 38 blank}) (ENLARGE 38 x))) IN {
+		LET (h2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 64 blank}) (STACK (FOR (ROW, i : Int = 0, i < 63, ASC) DO {COPY 36 blank}) (ENLARGE 36 x))) IN {
+		LET (i2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 66 blank}) (STACK (FOR (ROW, i : Int = 0, i < 65, ASC) DO {COPY 34 blank}) (ENLARGE 34 x))) IN {
+		LET (j2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 68 blank}) (STACK (FOR (ROW, i : Int = 0, i < 67, ASC) DO {COPY 32 blank}) (ENLARGE 32 x))) IN {
+		LET (k2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 70 blank}) (STACK (FOR (ROW, i : Int = 0, i < 69, ASC) DO {COPY 30 blank}) (ENLARGE 30 x))) IN {
+		LET (l2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 72 blank}) (STACK (FOR (ROW, i : Int = 0, i < 71, ASC) DO {COPY 28 blank}) (ENLARGE 28 x))) IN {
+		LET (m2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 74 blank}) (STACK (FOR (ROW, i : Int = 0, i < 73, ASC) DO {COPY 26 blank}) (ENLARGE 26 x))) IN {
+		LET (n2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 76 blank}) (STACK (FOR (ROW, i : Int = 0, i < 75, ASC) DO {COPY 24 blank}) (ENLARGE 24 x))) IN {
+		LET (o2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 78 blank}) (STACK (FOR (ROW, i : Int = 0, i < 77, ASC) DO {COPY 22 blank}) (ENLARGE 22 x))) IN {
+		LET (p2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 80 blank}) (STACK (FOR (ROW, i : Int = 0, i < 79, ASC) DO {COPY 20 blank}) (ENLARGE 20 x))) IN {
+		LET (q2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 82 blank}) (STACK (FOR (ROW, i : Int = 0, i < 81, ASC) DO {COPY 18 blank}) (ENLARGE 18 x))) IN {
+		LET (r2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 84 blank}) (STACK (FOR (ROW, i : Int = 0, i < 83, ASC) DO {COPY 16 blank}) (ENLARGE 16 x))) IN {
+		LET (s2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 86 blank}) (STACK (FOR (ROW, i : Int = 0, i < 85, ASC) DO {COPY 14 blank}) (ENLARGE 14 x))) IN {
+		LET (t2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 88 blank}) (STACK (FOR (ROW, i : Int = 0, i < 87, ASC) DO {COPY 12 blank}) (ENLARGE 12 x))) IN {
+		LET (u2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 90 blank}) (STACK (FOR (ROW, i : Int = 0, i < 89, ASC) DO {COPY 10 blank}) (ENLARGE 10 x))) IN {
+		LET (v2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 92 blank}) (STACK (FOR (ROW, i : Int = 0, i < 91, ASC) DO {COPY 8 blank}) (ENLARGE 8 x))) IN {
+		LET (w2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 94 blank}) (STACK (FOR (ROW, i : Int = 0, i < 93, ASC) DO {COPY 6 blank}) (ENLARGE 6 x))) IN {
+		LET (y2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 96 blank}) (STACK (FOR (ROW, i : Int = 0, i < 95, ASC) DO {COPY 4 blank}) (ENLARGE 4 x))) IN {
+		LET (z2 : String = CONCAT (FOR (ROW, i : Int = 0, i < 99, ASC) DO {COPY 98 blank}) (STACK (FOR (ROW, i : Int = 0, i < 97, ASC) DO {COPY 2 blank}) (ENLARGE 2 x))) IN {
+		
+			LET (XOR1 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT a1 (NEGATE b1))) (NEGATE (CONJUNCT (NEGATE a1) b1)))) IN {
+			LET (XOR2 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT c1 (NEGATE d1))) (NEGATE (CONJUNCT (NEGATE c1) d1)))) IN {
+			LET (XOR_ALPHA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR1 (NEGATE XOR2))) (NEGATE (CONJUNCT (NEGATE XOR1) XOR2))))) IN {
+
+			LET (XOR3 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT e1 (NEGATE f1))) (NEGATE (CONJUNCT (NEGATE e1) f1)))) IN {	
+			LET (XOR4 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT g1 (NEGATE h1))) (NEGATE (CONJUNCT (NEGATE g1) h1)))) IN {	
+			LET (XOR_BETA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR3 (NEGATE XOR4))) (NEGATE (CONJUNCT (NEGATE XOR3) XOR4))))) IN {
+
+			LET (XOR5 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT i1 (NEGATE j1))) (NEGATE (CONJUNCT (NEGATE i1) j1)))) IN {	
+			LET (XOR6 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT k1 (NEGATE l1))) (NEGATE (CONJUNCT (NEGATE k1) l1)))) IN {	
+			LET (XOR_CHARLIE : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR5 (NEGATE XOR6))) (NEGATE (CONJUNCT (NEGATE XOR5) XOR6))))) IN {
+
+			LET (XOR7 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT m1 (NEGATE n1))) (NEGATE (CONJUNCT (NEGATE m1) n1)))) IN {	
+			LET (XOR8 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT o1 (NEGATE p1))) (NEGATE (CONJUNCT (NEGATE o1) p1)))) IN {	
+			LET (XOR_DELTA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR7 (NEGATE XOR8))) (NEGATE (CONJUNCT (NEGATE XOR7) XOR8))))) IN {
+
+			LET (XOR9 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT q1 (NEGATE r1))) (NEGATE (CONJUNCT (NEGATE q1) r1)))) IN {	
+			LET (XOR10 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT s1 (NEGATE t1))) (NEGATE (CONJUNCT (NEGATE s1) t1)))) IN {	
+			LET (XOR_ECHO : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR9 (NEGATE XOR10))) (NEGATE (CONJUNCT (NEGATE XOR9) XOR10))))) IN {
+
+			LET (XOR11 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT u1 (NEGATE v1))) (NEGATE (CONJUNCT (NEGATE u1) v1)))) IN {	
+			LET (SUB_XOR1 : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT w1 (NEGATE y1))) (NEGATE (CONJUNCT (NEGATE w1) y1))))) IN {
+			LET (XOR12 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT (NEGATE SUB_XOR1) z1)) (NEGATE (CONJUNCT SUB_XOR1 (NEGATE z1))))) IN {
+			LET (XOR_FOXTROT : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR11 (NEGATE XOR12))) (NEGATE (CONJUNCT (NEGATE XOR11) XOR12))))) IN {
+
+			LET (XOR_GOLF : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_ALPHA (NEGATE XOR_BETA))) (NEGATE (CONJUNCT (NEGATE XOR_ALPHA) XOR_BETA))))) IN {
+			LET (XOR_HOTEL : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_CHARLIE (NEGATE XOR_DELTA))) (NEGATE (CONJUNCT (NEGATE XOR_CHARLIE) XOR_DELTA))))) IN {
+			LET (XOR_INDIA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_ECHO (NEGATE XOR_FOXTROT))) (NEGATE (CONJUNCT (NEGATE XOR_ECHO) XOR_FOXTROT))))) IN {
+
+			LET (SUB_XOR_JULIETT : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_GOLF (NEGATE XOR_HOTEL))) (NEGATE (CONJUNCT (NEGATE XOR_GOLF) XOR_HOTEL))))) IN {
+			LET (XOR_KILO : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT (NEGATE SUB_XOR_JULIETT) XOR_INDIA)) (NEGATE (CONJUNCT SUB_XOR_JULIETT (NEGATE XOR_INDIA))))) IN {
+			
+			// ======================================
+
+			LET (XOR13 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT a2 (NEGATE b2))) (NEGATE (CONJUNCT (NEGATE a2) b2)))) IN {
+			LET (XOR14 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT c2 (NEGATE d2))) (NEGATE (CONJUNCT (NEGATE c2) d2)))) IN {
+			LET (XOR_LIMA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR13 (NEGATE XOR14))) (NEGATE (CONJUNCT (NEGATE XOR13) XOR14))))) IN {
+
+			LET (XOR15 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT e2 (NEGATE f2))) (NEGATE (CONJUNCT (NEGATE e2) f2)))) IN {	
+			LET (XOR16 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT g2 (NEGATE h2))) (NEGATE (CONJUNCT (NEGATE g2) h2)))) IN {	
+			LET (XOR_MIKE : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR15 (NEGATE XOR16))) (NEGATE (CONJUNCT (NEGATE XOR15) XOR16))))) IN {
+
+			LET (XOR17 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT i2 (NEGATE j2))) (NEGATE (CONJUNCT (NEGATE i2) j2)))) IN {	
+			LET (XOR18 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT k2 (NEGATE l2))) (NEGATE (CONJUNCT (NEGATE k2) l2)))) IN {	
+			LET (XOR_NOVEMBER : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR17 (NEGATE XOR18))) (NEGATE (CONJUNCT (NEGATE XOR17) XOR18))))) IN {
+
+			LET (XOR19 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT m2 (NEGATE n2))) (NEGATE (CONJUNCT (NEGATE m2) n2)))) IN {	
+			LET (XOR20 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT o2 (NEGATE p2))) (NEGATE (CONJUNCT (NEGATE o2) p2)))) IN {	
+			LET (XOR_OSCAR : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR19 (NEGATE XOR20))) (NEGATE (CONJUNCT (NEGATE XOR19) XOR20))))) IN {
+
+			LET (XOR21 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT q2 (NEGATE r2))) (NEGATE (CONJUNCT (NEGATE q2) r2)))) IN {	
+			LET (XOR22 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT s2 (NEGATE t2))) (NEGATE (CONJUNCT (NEGATE s2) t2)))) IN {	
+			LET (XOR_PAPA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR21 (NEGATE XOR22))) (NEGATE (CONJUNCT (NEGATE XOR21) XOR22))))) IN {
+
+			LET (XOR23 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT u2 (NEGATE v2))) (NEGATE (CONJUNCT (NEGATE u2) v2)))) IN {	
+			LET (SUB_XOR2 : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT w2 (NEGATE y2))) (NEGATE (CONJUNCT (NEGATE w2) y2))))) IN {
+			LET (XOR24 : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT (NEGATE SUB_XOR2) z2)) (NEGATE (CONJUNCT SUB_XOR2 (NEGATE z2))))) IN {
+			LET (XOR_QUEBEC : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR23 (NEGATE XOR24))) (NEGATE (CONJUNCT (NEGATE XOR23) XOR24))))) IN {
+
+			LET (XOR_ROMEO : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_LIMA (NEGATE XOR_MIKE))) (NEGATE (CONJUNCT (NEGATE XOR_LIMA) XOR_MIKE))))) IN {
+			LET (XOR_SIERRA : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_NOVEMBER (NEGATE XOR_OSCAR))) (NEGATE (CONJUNCT (NEGATE XOR_NOVEMBER) XOR_OSCAR))))) IN {
+			LET (XOR_TANGO : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_PAPA (NEGATE XOR_QUEBEC))) (NEGATE (CONJUNCT (NEGATE XOR_PAPA) XOR_QUEBEC))))) IN {
+			
+			LET (SUB_XOR_UNIFORM: String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_ROMEO (NEGATE XOR_SIERRA))) (NEGATE (CONJUNCT (NEGATE XOR_ROMEO) XOR_SIERRA))))) IN {
+			LET (XOR_VICTOR : String = NEGATE (CONJUNCT (NEGATE (CONJUNCT (NEGATE SUB_XOR_UNIFORM) XOR_TANGO)) (NEGATE (CONJUNCT SUB_XOR_UNIFORM (NEGATE XOR_TANGO))))) IN {
+			
+			LET (TileQ : String = (NEGATE (CONJUNCT (NEGATE (CONJUNCT XOR_KILO (NEGATE XOR_VICTOR))) (NEGATE (CONJUNCT (NEGATE XOR_KILO) XOR_VICTOR))))) IN {
+			CONCAT (STACK TileQ (REFLECT_X TileQ)) (STACK (REFLECT_Y TileQ) (REFLECT_X (REFLECT_Y TileQ)))
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+		}
+	}
+}
