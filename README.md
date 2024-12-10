@@ -26,4 +26,20 @@ This displays an image of the resultant output of the program. In this case, it 
 
 <img width="755" alt="Screenshot 2024-12-01 at 12 54 57" src="https://github.com/user-attachments/assets/1064f478-62d9-49f5-99bf-ea96e81635f1">
 
+Another example provided 2 input files _tile1.tl_ and _tile2.tl_ and a program _ex1.tsl_, we execute the command,
+
+```
+./Tsl ex1.tsl tile1.tl tile2.tl > o.tl
+```
+
+Then visualising it,
+
+```
+./TileViewer o.tl
+```
+
+Gives,
+
+<img width="751" alt="Screenshot 2024-12-09 at 23 55 43" src="https://github.com/user-attachments/assets/f6a24545-af87-4ffc-ae67-bebaae75f476">
+
 This repository contains 10 examples for you to explore and manipulate to better grasp the language.
